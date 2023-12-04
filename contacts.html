@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internet-Store: buy some products</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="popup.js"></script>
+        <script src="counter.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="myTopnav">
+                <img src="img/fort-icon.png" alt="Логотип сайта">
+                <ul class="menu">
+                    <li><a href="index.html" class="menu-element"title="На главную">Главная</a></li>
+                    <li><a href="#services" class="menu-element" title="Информация" data-link="services">Общее</a></li>
+                    <li><a href="gallery.html" class="menu-element" title="Галерея" data-link="portfolio">Галерея</a></li>
+                    <li><a href="contacts.html" class="menu-element" title="Контакты">Контакты</a></li>
+                </ul>
+                <div id="hamburger" class="icon">&#9776;</div>  
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <img class="top-image top-image-sub" src="img/04.jpg" alt="Обложка страницы">
+            </section>
+            <section class="about-us">
+                <div class="about-container">
+                    <div class="about-row">
+                        <div class="about-column">
+                            <div class="content-left">
+                                <img src="img/img09.jpg" alt="О нас">
+                            </div>
+                        </div>
+                        <div class="about-column">
+                            <div class="content-right">
+                                <h2>Наша компания</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rerum voluptatum expedita tenetur culpa. Laborum nostrum ipsa mollitia. Eum velit laboriosam nostrum dicta a! Ad ea dolorum nisi velit officia.</p>
+                                <h3>Контакты для связи</h3>
+                                <div class="about-contact">
+                                    <span>Адрес:</span>
+                                    <span>г. Тирасполь, ул. Свердлова, д.10</span>
+                                </div>
+                                <div class="about-contact">
+                                    <span>Телефон:</span>
+                                    <span>+ (373) 55-200-724</span>
+                                </div>
+                                <div class="about-contact">
+                                    <span>E-mail:</span>
+                                    <span>hello@awesome.ws</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="our-achievement">
+                <div class="achievement-container">
+                    <div class="achievement-row">
+                        <div class="achievement-column">
+                            <div class="single-achievement">
+                                <h3 class="counter">
+                                    <span id="secondo1" class="countup" data-end="1250">1250 </span>+
+                                </h3>
+                                <p>Видов товаров</p>
+                            </div>
+                        </div>
+                        <div class="achievement-column">
+                            <div class="single-achievement">
+                                <h3 class="counter">
+                                    <span id="secondo2" class="countup" data-end="350">350 </span>+
+                                </h3>
+                                <p>Заказов ежемесячно</p>
+                            </div>
+                        </div>
+                        <div class="achievement-column">
+                            <div class="single-achievement">
+                                <h3 class="counter">
+                                    <span id="secondo3" class="countup" data-end="2500">2500 </span>+
+                                </h3>
+                                <p>Довольных клиентов</p>
+                            </div>
+                        </div>
+                        <div class="achievement-column">
+                            <div class="single-achievement">
+                                <h3 class="counter">
+                                    <span id="secondo3" class="countup" data-end="250">250 </span>+
+                                </h3>
+                                <p>Новых позиций</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="map">
+                <h1 class="main-title">Как нас найти</h1>
+                <div class="delimeter"></div>
+                <p class="main-title-description">Lorem</p>
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5ef33178e70de6ee539375ae5ad70f99e364a581bf4d4ae542c0053989c075f8&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+            </section>
+            <section class="testimonials">
+                <h1 class="main-title">Отзывы</h1>
+                <div class="delimeter"></div>
+                <p class="main-title-description">Наши клиенты о нас</p>
+                <div class="testimonials-container">
+                    <div class="testimonials-inner">
+                        <div class="testimonials-card">
+                            <div class="card-row">
+                                <img class="card-img" src="img/testimonials/01.jpg" alt="">
+                                <div class="card-head">
+                                    <h4>Angelina Glory</h4>
+                                    <span>25/02/2021</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="testimonials-card">
+                            <div class="card-row">
+                                <img class="card-img" src="img/testimonials/02.jpg" alt="">
+                                <div class="card-head">
+                                    <h4>Sergey Brin</h4>
+                                    <span>18/04/2021</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="testimonials-card">
+                            <div class="card-row">
+                                <img class="card-img" src="img/testimonials/03.jpg" alt="">
+                                <div class="card-head">
+                                    <h4>Stas Savchenko</h4>
+                                    <span>25/05/2021</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="testimonials-card">
+                            <div class="card-row">
+                                <img class="card-img" src="img/testimonials/04.jpg" alt="">
+                                <div class="card-head">
+                                    <h4>Angelina Savchenko</h4>
+                                    <span>26/05/2021</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="testimonials-card">
+                            <div class="card-row">
+                                <img class="card-img" src="img/testimonials/05.jpg" alt="">
+                                <div class="card-head">
+                                    <h4>Ekaterina Waffet</h4>
+                                    <span>01/06/2021</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                        <div class="testimonials-card">
+                            <div class="card-row">
+                                <img class="card-img" src="img/testimonials/06.jpg" alt="">
+                                <div class="card-head">
+                                    <h4>Sonya Kravets</h4>
+                                    <span>02/06/2021</span>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <div class="testimonials-controls">
+                        <div class="control-item active"></div>
+                        <div class="control-item"></div>
+                        <div class="control-item"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="На главную">Главная</a></li>
+                    <li><a href="#services" title="Общая информация" class="menu-element" data-link="services">Общее</a></li>
+                    <li><a href="gallery.html" title="Фотогалерея" class="menu-element" data-link="portfolio">Галерея</a></li>
+                    <li><a href="contacts.html" title="Контактная информация" class="menu-element">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="brand">
+                <img src="img/fort-icon.png" alt="Логотип сайта">
+                <span>AWESOME</span>
+            </div>
+            <div class="social">
+                <a href="#" title="Facebook" target="_blank">
+                    <img class="social-img" src="img/001-facebook.png" alt="Facebook">
+                </a>
+                <a href="#" title="Linkedin" target="_blank">
+                    <img class="social-img" src="img/004-linkedin.png" alt="Linkedin">
+                </a>
+                <a href="#" title="Instagram" target="_blank">
+                    <img class="social-img" src="img/005-instagram.png" alt="Instagram">
+                </a>
+                <a href="#" title="Twitter" target="_blank">
+                    <img class="social-img" src="img/007-twitter.png" alt="Twitter">
+                </a>
+                <a href="#" title="Tumblr" target="_blank">
+                    <img class="social-img" src="img/010-tumblr.png" alt="Tumblr">
+                </a>
+            </div>
+            <div class="copyright">© Very First Page 2020</div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internet-Store: buy some products</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="slider.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="myTopnav">
+                <img src="img/fort-icon.png" alt="Логотип сайта">
+                <ul class="menu">
+                    <li><a href="index.html" class="menu-element"title="На главную" data-link="top">Главная</a></li>
+                    <li><a href="#services" class="menu-element" title="Информация" data-link="services">Общее</a></li>
+                    <li><a href="gallery.html" class="menu-element" title="Галерея" data-link="portfolio">Галерея</a></li>
+                    <li><a href="contacts.html" class="menu-element" title="Контакты">Контакты</a></li>
+                    <li><a href="blog.html" class="menu-element" title="Наш блог">Блог</a></li>
+                </ul>
+                <div id="hamburger" class="icon">&#9776;</div>  
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <img class="top-image" src="img/04.jpg" alt="Обложка страницы">
+            </section>
+            <section class="slider-section">
+                <h1 class="main-title">Наши работы</h1>
+                <div class="delimeter"></div>
+                <p class="main-title-description">Перечень изображений в слайдере</p>
+                <div class="slider-container">
+                    <div class="slider-arrow left"></div>
+                    <div class="slider-arrow right"></div>
+                    <div class="slider-image"></div>
+                </div>
+            </section>
+            <section class="slider-section">
+              <h1 class="main-title">Наши проекты</h1>
+              <div class="delimeter"></div>
+              <p class="main-title-description">Список можно увидеть в слайдере</p>
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/bootstrap04.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>                
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/bootstrap03.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/bootstrap05.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+            </section>
+            <!-- Фрагмент блока цен-->  
+            <section class="container">
+              <h1 class="main-title">Цены</h1>
+              <div class="delimiter"></div>
+              <p class="main-title-description">Основные ценовые планы</p>
+              <div class="row row-cols-1 row-cols-md-3 mb-5 text-center">
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Free</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>10 users included</li>
+                          <li>2 GB of storage</li>
+                          <li>Email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                      <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>20 users included</li>
+                          <li>10 GB of storage</li>
+                          <li>Priority email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                      <div class="card-header py-3 text-white bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Enterprise</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>30 users included</li>
+                          <li>15 GB of storage</li>
+                          <li>Phone and email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+        </main>
+        <footer>
+            <nav id="myTopnav">
+                <ul class="menu">
+                    <li><a href="index.html" title="На главную" class="menu-element" data-link="top">Главная</a></li>
+                    <li><a href="#services" title="Общая информация" class="menu-element" data-link="services">Общее</a></li>
+                    <li><a href="gallery.html" title="Фотогалерея" class="menu-element" data-link="portfolio">Галерея</a></li>
+                    <li><a href="contacts.html" title="Контактная информация" class="menu-element">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="brand">
+                <img src="img/fort-icon.png" alt="Логотип сайта">
+                <span>AWESOME</span>
+            </div>
+            <div class="social">
+                <a href="#" title="Facebook" target="_blank">
+                    <img class="social-img" src="img/001-facebook.png" alt="Facebook">
+                </a>
+                <a href="#" title="Linkedin" target="_blank">
+                    <img class="social-img" src="img/004-linkedin.png" alt="Linkedin">
+                </a>
+                <a href="#" title="Instagram" target="_blank">
+                    <img class="social-img" src="img/005-instagram.png" alt="Instagram">
+                </a>
+                <a href="#" title="Twitter" target="_blank">
+                    <img class="social-img" src="img/007-twitter.png" alt="Twitter">
+                </a>
+                <a href="#" title="Tumblr" target="_blank">
+                    <img class="social-img" src="img/010-tumblr.png" alt="Tumblr">
+                </a>
+            </div>
+            <div class="copyright">© Very First Page 2020</div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
